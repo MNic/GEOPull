@@ -8,14 +8,14 @@ require(xlsx)
 #'Script is designed to make use of html querying functions built into the server side of
 #'NCBIs Gene Expression Omnibus (GEO).  Here we use R to query the server for an xml type
 #'file which R parses into a list of lists.  The lists are then reformatted and exported
-#'as an xlsx file for linking/import into an MS Access database. 
+#'as an .xlsx file for linking/import into an MS Access database. 
 #'
 #'Inputs for this script are a csv file of GEO GSE Series IDs and a list of desired fields
 #'to keep in the output.
 
 #'Notes for downloading files directly:
 #'In the url below acc=GSE####' is the series ID, 'targ=self' defines the report/dataset 
-#'type from geo, 'form=xml' requests the MINimL format XML file.
+#'type from geo, 'form=xml' requests the MINiML format XML file.
 #'
 #'fn <- "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE9960&targ=self&view=brief&form=xml"
 #'data <- xmlParse(fn)
