@@ -1,4 +1,4 @@
-### GEOPull
+### _GEOPull_
 
 ##### Purpose
 This R Script is designed to pull Series data from GEO in XML format and parse it for appending into an Access/SQL Database.  The intent is to create a relevant, searchable GEO subset locally to keep track of potential validation datasets and support data from other researchers.
